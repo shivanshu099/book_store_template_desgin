@@ -1,0 +1,159 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.nav{
+    background-color: rgb(47, 0, 39);
+    color: crimson;
+    height: 71px;
+    width: 90%;
+    margin: 2vw auto;
+    border-radius: 21px;
+    border:  1px solid aliceblue;
+
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.nav ul a{
+    margin: 2vw auto;
+    text-decoration: none;
+    color: rgb(248, 246, 246);
+    background-color: rgb(0, 0, 0);
+    border-radius: 9px;
+    padding: 3px 3px;
+    border:  1px solid aliceblue;
+}
+
+.nav ul a:hover{
+    color: crimson;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    margin: 2vw auto;
+}
+
+hr{
+    margin: 5vw auto;
+    height: 3px;
+    width: 90%;
+    background-color: rgb(53, 53, 53);
+    border: none;
+}
+
+.fhead{
+    margin: 5vw auto;
+    text-align: center;
+    font-size: 101px;
+    font-weight: 100;
+    font-family: "Montserrat";
+}
+
+.book{
+    display: flex;
+    height: 300px;
+    width: 700px;
+    background-color: rgb(185, 40, 40);
+    
+    margin: 2vw auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.ima{
+    display: flex;
+    flex-direction: column;
+    margin: 2vw auto;
+    align-items: center;
+    justify-content: center;
+}
+.ima img{
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+    object-fit: cover;
+    object-position: bottom;
+    
+}
+
+.ima h6{
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 21px;
+    margin: 2vw auto;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2px 2px;
+}
+.con button{
+    margin: 12px 2px;
+    padding: 9px 9px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 21px;
+    border: 1px solid aliceblue;
+
+
+}
+
+.con button:hover{
+    color: crimson;
+}
+
+
+.foot{
+    position: fixed;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    height: 71px;
+    color: black;
+    background-color: aliceblue;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foot h1{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 21px;
+
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.social i{
+    margin: 12px 12px;
+    color: crimson;
+}
